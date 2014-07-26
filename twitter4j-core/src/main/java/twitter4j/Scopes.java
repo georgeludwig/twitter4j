@@ -22,7 +22,7 @@ package twitter4j;
  * @author Aaron Rankin - aaron at sproutsocial.com
  * @since Twitter4J 3.0.6
  */
-public interface Scopes {
+public interface Scopes extends java.io.Serializable {
 
 	/**
      * Returns the place_ids that identify the scope of the status.
